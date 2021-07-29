@@ -1,0 +1,25 @@
+.info {
+  padding: 10rem 1rem 5rem;
+  border-radius: 1rem;
+}
+.info .img {
+  max-width:30rem;
+}
+@media screen and (min-width: 1024px) {
+  .info {
+    padding: 10rem 5rem;
+  }
+  .info .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .info .img {
+    margin: 0;
+    height: 25rem;
+    object-fit: contain;
+  }
+  .info .item {
+    width: 25%;
+  }
+}

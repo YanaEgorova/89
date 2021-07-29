@@ -1,0 +1,17 @@
+.hero {
+  padding: 10rem 1rem 5rem;
+  border-radius: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 10rem 5rem;
+    background-image: url('../img/img2.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    text-align: left;
+  }
+  .hero .btn {
+    margin-left: 0;
+  }
+}
