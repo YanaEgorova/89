@@ -1,7 +1,16 @@
 .buy__wrapper {
   background-color: var(--first-brand-color);
 }
-
+.label-block {
+  display: flex;
+  justify-content: space-between;
+}
+.form-pd {
+  width: 100%;
+}
+.label-block-fl {
+  flex-grow: 1;
+}
 .checkbox__label-wrap {
   display: flex;
   align-items: center;
